@@ -19,3 +19,8 @@ order of the route matter a lot
 
 http method -- get, post, patch, delete
 install postman and make a test api call
+
+explore routing and use of ?, +, (), * in the routes
+use of regex in routes /a/, /.*fly$/
+reading query param in routes
+reading the dynamic routes
