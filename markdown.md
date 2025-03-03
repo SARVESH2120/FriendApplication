@@ -50,3 +50,37 @@ push some document using api call
 -collection
 -document
 -field
+
+episode 7
+
+json vs js
+add the expree.json middleware to app
+make your signup api dynamics to receive data from the end user
+
+user.findone with duplicate email ids. ehich object returned
+
+api get user by email
+api - feed api - get/feed - get all the users from the database
+api - get user by id
+create a delete user api
+difference between patch and put
+api - update a user
+ecxplore the mongoose docs Model methods
+what are options model.findoneupdate method explore more about it
+api - update the user with emailid
+
+Episode 8
+Explore schema type options from the documentation
+add require unique, lowercase, min, maxLength, trim
+create a custome validate function for gender
+improve the db schema put a appropriate validateions to each field
+Add timestamp to user schema
+
+Add Api level validation on patch request & sign post apo
+data sanitization --add api validation for each field
+
+install validator
+Ecplore the validator library functions & use validatr func for password and email
+
+
+
