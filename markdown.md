@@ -82,5 +82,34 @@ data sanitization --add api validation for each field
 install validator
 Ecplore the validator library functions & use validatr func for password and email
 
+Never trust req.body
 
+
+
+episode 9
+
+
+
+validate data in signup api
+install bcrypt package
+create passwordhash using bcrypt.hash & save the user is excrutped password
+
+create login api
+compare password and throw error if email or password is invalid
+
+episode 10
+install cookie parser
+jsut send a dummy cookie to user
+create get/ profile api and check if you get the cookie back
+install json web token
+in login api afte email and password create a jwt token and send it to user in cookies
+read the cookie inside you profile API and find the logged in user
+userAuth middleware
+Add the userAuth middleware in profile API and a new sendConnectionsRequest API
+Set the expiry of JW T token and cookies to 7 days
+
+in banking app there are tokens
+
+create userSchema method to getJWT()
+create userSchema method to comparePassword(passwordInputByUser)
 
