@@ -113,3 +113,53 @@ in banking app there are tokens
 create userSchema method to getJWT()
 create userSchema method to comparePassword(passwordInputByUser)
 
+
+
+
+
+EPISODE 11
+API LIST
+
+authRouter
+-post/signup
+-post/logout
+
+
+profileRouter
+-get/profile/view
+-patch/profile/edit
+-patch/profile/password
+
+ConnectionRequestRouter
+-post/request/send/interested/:userId
+-post/request/send/ignored/:requestId
+
+userRouter
+-get /user/connections
+-get /user/requests/received
+-get /user/feed - gets you profiles of other users on platform
+
+status: ignore, interested, accepted, rejected
+
+express.router()
+explore tinder api
+create a list all api under respective router
+groutp multiple routes under respective routers
+
+33.30
+
+
+episode 12
+create connection request schema
+send connection request api
+proper validation of data
+$or query in mongoose $and query in mongoose
+read more about index in mongodb
+schema.pre function 
+why we need index in db
+what are thr advantage and disadvantage of creating index
+reading the article about compound indexes
+
+
+Episode 13
+
