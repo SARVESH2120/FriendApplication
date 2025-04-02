@@ -163,3 +163,14 @@ reading the article about compound indexes
 
 Episode 13
 
+epoisode 14
+
+/feed?page=1&limit=10 => first 10 user 1-10  ==>  .skip(0) & .limit(10)
+
+/feed?page=2&limit=10 => first 10 user 11-20 ==> .skip(10) & .limit(10)
+
+/feed?page=3&limit=10 => first 10 user 21-30 ==> .skip(20) & .limit(10)
+
+.skip(0) & .limit(10)
+
+skip = (page-1)*limit
