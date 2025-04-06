@@ -3,7 +3,7 @@ const validator = require("validator");
 const validateSignUpData = (req) => {
   const { firstName, lastName, emailId, password } = req.body;
   if (!firstName || !lastName) {
-    throw new Error("NME IS NOT VALID");
+    throw new Error("NAME IS NOT VALID");
   } else if (!validator.isEmail(emailId)) {
     throw new Error("Email is not valid");
   } else if (!validator.isStrongPassword(password)) {
